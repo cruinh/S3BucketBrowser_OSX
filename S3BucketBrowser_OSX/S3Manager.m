@@ -79,7 +79,7 @@ static S3Manager* s_instance = nil;
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     formatter.dateFormat = @"yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'SSS'Z'";
     
-    [Bucket MR_deleteAllMatchingPredicate:[NSPredicate predicateWithFormat:@"name=%@",self.bucketName]];
+    [Bucket MR_truncateAll];
     Bucket *bucket = [Bucket MR_createEntity];
     bucket.name = self.bucketName;
     
