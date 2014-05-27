@@ -9,6 +9,7 @@
 #import "BucketContentsWindow.h"
 
 #import "AppDelegate.h"
+#import "AuthenticationPanel.h"
 #import "BucketObject.h"
 #import "S3Manager.h"
 
@@ -57,6 +58,12 @@
     }
     else
         [self.arrayController setFilterPredicate:nil];
+}
+
+- (IBAction)onSettingsButton:(id)sender
+{
+    [self orderOut:self];
+    [[AppDelegate shared].authenticationPanel orderFront:self];
 }
 
 @end

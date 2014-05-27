@@ -13,6 +13,7 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="authenticationPanel" destination="S4y-Uy-yAf" id="Qcc-oa-Qh1"/>
                 <outlet property="bucketsPanel" destination="xNV-tz-RiL" id="uj2-S8-ee6"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -854,7 +855,7 @@
                     <constraint firstItem="wFK-bc-F6q" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="k8z-Hu-eht"/>
                 </constraints>
             </view>
-            <toolbar key="toolbar" implicitIdentifier="19D80851-4288-4470-9A45-C9D4766893F9" autosavesConfiguration="NO" displayMode="iconOnly" sizeMode="regular" id="1qk-mb-v5s" customClass="BucketContentsToolbar">
+            <toolbar key="toolbar" implicitIdentifier="19D80851-4288-4470-9A45-C9D4766893F9" autosavesConfiguration="NO" displayMode="iconOnly" sizeMode="regular" id="1qk-mb-v5s">
                 <allowedToolbarItems>
                     <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="u9Y-aY-vP0"/>
                     <toolbarItem implicitItemIdentifier="264AADF2-1AD6-469E-A579-D1707368093F" label="Filter" paletteLabel="Filter" id="atJ-z8-KzV">
@@ -874,8 +875,14 @@
                             </connections>
                         </textField>
                     </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="CD25D40D-3078-4097-AC4C-6856B662EF78" label="Settings" paletteLabel="Settings" tag="-1" image="cog" id="hA0-8r-BCt">
+                        <connections>
+                            <action selector="onSettingsButton:" target="QvC-M9-y7g" id="t9l-SH-gbK"/>
+                        </connections>
+                    </toolbarItem>
                 </allowedToolbarItems>
                 <defaultToolbarItems>
+                    <toolbarItem reference="hA0-8r-BCt"/>
                     <toolbarItem reference="u9Y-aY-vP0"/>
                     <toolbarItem reference="atJ-z8-KzV"/>
                 </defaultToolbarItems>
@@ -1147,4 +1154,7 @@ Gw
             </connections>
         </window>
     </objects>
+    <resources>
+        <image name="cog" width="16" height="16"/>
+    </resources>
 </document>

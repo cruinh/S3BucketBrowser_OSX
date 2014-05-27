@@ -30,7 +30,6 @@
 		AA5BD20919340E1900A86A33 /* BucketContentsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5BD20819340E1900A86A33 /* BucketContentsWindow.m */; };
 		AA5BD20F1934315C00A86A33 /* Bucket.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5BD20E1934315C00A86A33 /* Bucket.m */; };
 		AA5BD214193433D100A86A33 /* BucketObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5BD213193433D100A86A33 /* BucketObject.m */; };
-		AA5BD2A819344BBE00A86A33 /* BucketContentsToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5BD2A719344BBE00A86A33 /* BucketContentsToolbar.m */; };
 		AA6F3EFA1934558E0000CAC9 /* FilterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6F3EF91934558E0000CAC9 /* FilterTextField.m */; };
 /* End PBXBuildFile section */
 
@@ -87,8 +86,6 @@
 		AA5BD20E1934315C00A86A33 /* Bucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bucket.m; sourceTree = "<group>"; };
 		AA5BD212193433D100A86A33 /* BucketObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketObject.h; sourceTree = "<group>"; };
 		AA5BD213193433D100A86A33 /* BucketObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketObject.m; sourceTree = "<group>"; };
-		AA5BD2A619344BBE00A86A33 /* BucketContentsToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketContentsToolbar.h; sourceTree = "<group>"; };
-		AA5BD2A719344BBE00A86A33 /* BucketContentsToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketContentsToolbar.m; sourceTree = "<group>"; };
 		AA6F3EF81934558E0000CAC9 /* FilterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterTextField.h; sourceTree = "<group>"; };
 		AA6F3EF91934558E0000CAC9 /* FilterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterTextField.m; sourceTree = "<group>"; };
 		FA77B548459F4317B65D0374 /* Pods-S3BucketBrowser_OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-S3BucketBrowser_OSX.xcconfig"; path = "Pods/Pods-S3BucketBrowser_OSX.xcconfig"; sourceTree = "<group>"; };
@@ -168,8 +165,6 @@
 				AA5BD1FB1934054800A86A33 /* AuthenticationPanel.m */,
 				AA5BD20D1934315C00A86A33 /* Bucket.h */,
 				AA5BD20E1934315C00A86A33 /* Bucket.m */,
-				AA5BD2A619344BBE00A86A33 /* BucketContentsToolbar.h */,
-				AA5BD2A719344BBE00A86A33 /* BucketContentsToolbar.m */,
 				AA5BD20719340E1900A86A33 /* BucketContentsWindow.h */,
 				AA5BD20819340E1900A86A33 /* BucketContentsWindow.m */,
 				AA5BD1FD1934068300A86A33 /* BucketListPanel.h */,
@@ -394,7 +389,6 @@
 				AA6F3EFA1934558E0000CAC9 /* FilterTextField.m in Sources */,
 				AA5BD1F51933FB6600A86A33 /* AFAmazonS3Manager.m in Sources */,
 				AA5BD214193433D100A86A33 /* BucketObject.m in Sources */,
-				AA5BD2A819344BBE00A86A33 /* BucketContentsToolbar.m in Sources */,
 				AA5BD20919340E1900A86A33 /* BucketContentsWindow.m in Sources */,
 				AA5BD205193409A800A86A33 /* S3Manager.m in Sources */,
 				AA5BD1CC1933F98E00A86A33 /* AppDelegate.m in Sources */,
