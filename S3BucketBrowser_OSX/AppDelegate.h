@@ -8,14 +8,22 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class AuthenticationPanel;
+@class S3Manager;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, weak) IBOutlet NSWindow *window;
+@property (nonatomic, weak) IBOutlet NSPanel *bucketsPanel;
+@property (nonatomic, weak) IBOutlet AuthenticationPanel *authenticationPanel;
+@property (nonatomic, strong) S3Manager *s3Manager;
 
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
-- (IBAction)saveAction:(id)sender;
++ (AppDelegate*)shared;
+- (void)openPreferences:(id)sender;
+- (void)openDocument:(id)sender;
 
 @end

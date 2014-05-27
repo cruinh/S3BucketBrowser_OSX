@@ -7,8 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CoreData+MagicalRecord.h"
 
 int main(int argc, const char * argv[])
 {
+    [MagicalRecord setupCoreDataStack];
     return NSApplicationMain(argc, argv);
 }

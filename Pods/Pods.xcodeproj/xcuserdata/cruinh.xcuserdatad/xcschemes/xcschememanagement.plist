@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-S3BucketBrowser_OSX-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-S3BucketBrowser_OSX-MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-S3BucketBrowser_OSX-Ono.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-S3BucketBrowser_OSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0B787D397EEB4CE8A7B8C6B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39D3461263AE416292C21E56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>857131E6D7A349809D426325</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA49A34E82D549569CB8EB85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

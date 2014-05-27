@@ -1,0 +1,7 @@
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#endif
+
+#import "Pods-S3BucketBrowser_OSX-environment.h"
+#import <CoreData/CoreData.h>
+#import "CoreData+MagicalRecord.h"
